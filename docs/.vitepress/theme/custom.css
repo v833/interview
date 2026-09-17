@@ -1,0 +1,45 @@
+/**
+ * 侧耳 Sotto 品牌色
+ * 浅色模式用沉稳的靛青，深色模式整体提亮保证对比度。
+ */
+
+:root {
+  --vp-c-brand-1: #2f6f8f;
+  --vp-c-brand-2: #3d84a8;
+  --vp-c-brand-3: #245a75;
+  --vp-c-brand-soft: rgba(47, 111, 143, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #6bb0cd;
+  --vp-c-brand-2: #82c0d8;
+  --vp-c-brand-3: #a5d4e6;
+  --vp-c-brand-soft: rgba(107, 176, 205, 0.16);
+}
+
+/* 首页 hero 的渐变标题收一点，避免太花 */
+.VPHero .name .clip {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* 表格在窄屏下横向滚动，不撑破正文 */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* 键帽样式，用于快捷键说明 */
+kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.82em;
+  line-height: 1.5;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  white-space: nowrap;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "sotto-docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "侧耳 Sotto 使用文档",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

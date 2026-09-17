@@ -11,3 +11,7 @@ models/
 *.pyc
 __pycache__/
 .venv/
+# 文档站的依赖与构建产物
+docs/node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
